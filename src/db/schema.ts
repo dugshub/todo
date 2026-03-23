@@ -1,1 +1,6 @@
-export const schema = { todos: { id: "uuid", title: "text", done: "boolean" } }
+export interface Todo {
+	id: string;
+	title: string;
+	done: boolean;
+	createdAt: string;
+}
