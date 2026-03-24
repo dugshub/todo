@@ -1,1 +1,1 @@
-export const schema = { todos: { id: "uuid", title: "text", done: "boolean" } }
+export const schema = { users: {}, posts: {} }
